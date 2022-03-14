@@ -1,4 +1,6 @@
 <div dir="rtl" lang="he">
+## זהו פיתרון עבור מטלה 1 בקורס "תכנות מערכות ב'", פירוט המטלה בהמשך הקובץ.
+![results](https://github.com/oridarshan/mat-b/blob/4275b0842289bd0ee026aa27340252372aeb678b/SharedScreenshot.jpg)
 
 # יצרני השטיחים
 
