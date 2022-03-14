@@ -2,7 +2,7 @@
 
 
 ## זהוא פתרון למטלה מספר 2 בקורס "תכנות מערכות ב'", פירוט המטלה בהמשך הקובץ.  
-דף תוצאות:  
+הוכחת ציון:  
     ![results](https://github.com/oridarshan/mat-b/blob/4275b0842289bd0ee026aa27340252372aeb678b/SharedScreenshot.jpg)
 # יצרני השטיחים
 
