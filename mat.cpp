@@ -25,7 +25,7 @@ string ariel::mat(int col, int row, char c1, char c2){
     // add end of line for each row
     for (int i = 0; i < row; i++)
     {
-        arr[i][col] = '\n';
+        arr.at(i).at(col) = '\n';
     }
 
     char c = c2;
@@ -38,7 +38,7 @@ string ariel::mat(int col, int row, char c1, char c2){
         {
             for (int j = k; j < col - k; j++)
             {
-                arr[i][j] = c;
+                arr.at(i).at(j) = c;
             }         
         }
     }
@@ -49,9 +49,9 @@ string ariel::mat(int col, int row, char c1, char c2){
         for (int j = 0; j < col+1; j++)
         {
             // append symbol from mat to result string
-            res.push_back(arr[i][j]);
+            res.push_back(arr.at(i).at(j));
 
-            //cout << arr[i][j]; //debuging
+            //cout << arr.at(i).at(j); //debuging
         }
         
     }
