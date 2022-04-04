@@ -9,6 +9,7 @@ using namespace std;
 
 
 string ariel::mat(int col, int row, char c1, char c2){
+    // validate input
     if(col <= 0 || col % 2 == 0){
         throw ("columns number must be a natural odd number");
     }
@@ -33,8 +34,8 @@ string ariel::mat(int col, int row, char c1, char c2){
     for (int k = 0; k < max(row,col); k++){
         // switch symbol for each iteration
         c = (c == c2) ? c1 : c2;
-        for (int i = k; i < row - k; i++)
         // paint sub-mat with relevant symbol
+        for (int i = k; i < row - k; i++)
         {
             for (int j = k; j < col - k; j++)
             {
@@ -50,12 +51,8 @@ string ariel::mat(int col, int row, char c1, char c2){
         {
             // append symbol from mat to result string
             res.push_back(arr.at(i).at(j));
-
             //cout << arr.at(i).at(j); //debuging
         }
-        
-    }
-    
+    } 
     return res;
 }
-
